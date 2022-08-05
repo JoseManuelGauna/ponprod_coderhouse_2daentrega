@@ -1,0 +1,8 @@
+DESAFIO ENTREGABLE N*6
+
+Realicé una implementación de Bootstrap a dos páginas que considero que van a verdaderamente requerir del framework de BS: WORK y CONTACT.
+No me pareció necesario o prudente probarlo en INDEX puesto que ya la aplicación de grids y flexbox ya me permiten lograr el resultado deseado, y no quiero estropear la estructura del proyecto final.
+La implementación es sencilla, hago uso de la libreria css de Bootstrap, y le aplico override con un style.css escrito por mí, así puedo especificar elementos de estilo que quiero presentes, y mantengo la estructura de bootstrap limpia, sin modificarla. La forma en que lo hice fué declarando la librería "style.css" posteriormente a la de "bootstrap.css".
+
+
+

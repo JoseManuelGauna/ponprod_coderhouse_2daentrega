@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <h1>Testeando Bootstrap</h1>
+        <h2>Pagina CONTACT</h2>
+        <h3>Esta es una pagina de prueba, para probar el diseño responsive de Bootstrap. Idealmente será utilizado para
+            el formulario de contacto de la pagina CONTACT en mi proyecto final.</h3>
+    </header>
+
+    <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Hit me up!</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Si tenés algun proyecto que estés interesado en trabajar
+            conmigo, no dudes en contactarte! Dejame tus datos</p>
+
+        <div class="col-md-9 mb-md-0 mb-5 paddingFormulario">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nombre</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Contame tu proyecto!</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+    </section>
+</body>
+
+<footer class="bg-dark text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <a class="text-light">PonProd</a>
+    </div>
+</footer>
+
+</html>
